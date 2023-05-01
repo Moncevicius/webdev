@@ -1,0 +1,735 @@
+/* first section */
+.first-screen {
+    position: absolute;
+    width: 1600px;
+    height: 744px;
+    left: calc(50% - 1600px / 2);
+    top: 0;
+    background-image: url("assets/1/bg-image.jpg");
+}
+
+/* header */
+header {
+    position: absolute;
+    height: 95px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/* logo for header and footer */
+.logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: calc(50% - 44px / 2);
+    background: url("assets/logo.svg");
+}
+
+/* logo header top position */
+.logo-header-top {
+    top: 25px;
+}
+
+/* about */
+.about {
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: calc(50% - 38px/2 - 279px);;
+    top: 38px;
+}
+
+/* syllabus */
+.syllabus {
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: calc(50% - 53px/2 - 148px);
+    top: 38px;
+}
+
+/* projects */
+.projects {
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: calc(50% - 52px/2 + 148px);
+    top: 38px;
+}
+
+/* faq */
+.faq {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: calc(50% - 26px/2 + 272px);
+    top: 38px;
+}
+
+/* font-nav */
+.font-nav {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+/* slogan section 1 */
+.slogan {
+    position: absolute;
+    height: 75px;
+    left: calc(50% - 730px/2);
+    top: calc(50% - 75px/2 - (104px + 42px));
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* text section 1 under slogan */
+.text-1 {
+    position: absolute;
+    width: 504px;
+    height: 50px;
+    left: calc(50% - 504px/2);
+    top: calc(50% - 50px/2 - 22px);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* section 1 main button - get started */
+.btn-main {
+    align-items: center;
+    padding: 10px 44px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: calc(50% - 184px/2);
+    top: calc(50% - 46px/2 + 56px);
+    background: #00AFDB;
+    border: #00AFDB;
+}
+
+/* socials */
+.socials {
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: calc(50% - 170px/2);
+    bottom: 90px;
+}
+
+/* mail vector icon */
+.mail-vector {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 0;
+    right: 88.24%;
+    top: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background: url("assets/1/mailVector.svg") no-repeat center;
+    border: 0px;
+}
+
+/* facebook vector icon with ellipse*/
+.facebook-vector {
+    box-sizing: border-box;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 50px;
+    top: 2px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    background: url("assets/1/facebookVector.svg") no-repeat center;
+}
+
+/* instagram vector icon*/
+.insta-vector {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 58.82%;
+    right: 29.41%;
+    border: 0px;
+    border-radius: 50%;
+    top: -1px;
+    bottom: 0;
+    background: url("assets/1/instaVector.svg") no-repeat center;
+}
+
+/* telegram vector icon with ellipse */
+.telegram-vector {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 150px;
+    top: 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    background: url("assets/1/telegramVector.svg") no-repeat center;
+}
+
+/* second section */
+.second-screen {
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: calc(50% - 1600px / 2);
+    top: 744px;
+    background-color: #FFFFFF;
+}
+
+/* content block for text and button */
+.content-block {
+    position: absolute;
+    width: 407px;
+    height: 233px;
+    left: 269px;
+    top: 295px;
+}
+
+/* rappresent text one position / style */
+.rappresent-text-one {
+    position: absolute;
+    width: 367px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* rappresent text two position / style */
+.rappresent-text-two {
+    position: absolute;
+    width: 407px;
+    top: 77px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* rappresent button */
+.rappresent-button {
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: 0;
+    top: 187px;
+    background: #00AFDB;
+    color: #FFFFFF;
+    border: #00AFDB;
+}
+
+/* rappresent content image */
+.content-image {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 924px;
+    top: 120px;
+}
+
+/* third section */
+.third-screen {
+    position: absolute;
+    width: 1600px;
+    height: 504px;
+    left: calc(50% - 1600px / 2);
+    top: 1586px;
+    background: #F5F6F7;
+}
+
+/* slider navigation items */
+.slider-nav-items {
+    position: absolute;
+    width: 83px;
+    height: 18px;
+    right: 269px;
+    top: 82px;
+}
+
+/* slider nav item - arrow left*/
+.slider-arrow-left {
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    left: 0;
+    top: 2px;
+    border: 0px;
+    background: url("assets/3/arrow-left.svg") no-repeat center;
+}
+
+
+/* slider nav item - first: one */
+.first-item {
+    position: absolute;
+    width: 11px;
+    height: 18px;
+    left: calc(50% - 11px/2 - 13px);
+    top: calc(50% - 18px/2);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #373737;
+}
+
+/* slider nav item - second: slash */
+.second-item {
+    position: absolute;
+    width: 6.71px;
+    height: 13.9px;
+    left: calc(50% - 6.71px/2 - 0.14px);
+    top: calc(50% - 13.9px/2 - 0.05px);
+    background: url("assets/3/divider-icon.svg");
+}
+
+/* slider nav item - third: five */
+.third-item {
+    position: absolute;
+    width: 11px;
+    height: 18px;
+    left: calc(50% - 11px/2 + 13px);
+    top: calc(50% - 18px/2);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #373737;
+}
+
+/* slider nav item - arrow right */
+.slider-arrow-right {
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    left: 74px;
+    top: 2px;
+    border: 0px;
+    background: url("assets/3/arrow-right.svg") no-repeat center;
+}
+
+/* two row layout container */
+.two-row {
+    position: absolute;
+    width: 298px;
+    height: 175px;
+    left: 269px;
+    top: 155px;
+}
+
+/* section three user pic position */
+.user-pic {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: calc(50% - 45px/2) ;
+    top: 0;
+    border-radius: 50%;
+}
+
+/* section three text one position ??????????????????????*/
+.third-section-text-one {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: calc(50% - 160px/2);
+    top: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* section three text two position ?????????????????*/
+.third-section-text-two {
+    position: absolute;
+    width: 298px;
+    height: 80px;
+    left: calc(50% - 298px/2);
+    top: 95px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* three column layout container */
+.three-column {
+    position: absolute;
+    width: 894px;
+    height: 244px;
+    left: 706px;
+    top: 120px;
+}
+
+/* section three pic shift to the right */
+.third-pic-shift {
+    margin-right: 25px;
+}
+
+/* section four container */
+.fourth-section {
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: calc(50% - 1600px / 2);
+    top: 2090px;
+    background: #FFFFFF;
+}
+
+/* section four image */
+.fourth-image-position {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 269px;
+    top: 120px;
+}
+
+/* section four content block */
+.fourth-content-block {
+    position: absolute;
+    width: 407px;
+    height: 184px;
+    left: 815px;
+    top: 319px;
+}
+
+/* section four text one */
+.fourth-text-one {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* section four text two */
+.fourth-text-two {
+    position: absolute;
+    width: 407px;
+    height: 60px;
+    left: 0;
+    top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* section four button */
+.fourth-button {
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 0;
+    top: 138px;
+    background: #00AFDB;
+    border: #00AFDB;
+    color: #FFFFFF;
+}
+
+/* fifth section container */
+.fifth-section {
+    position: absolute;
+    width: 1600px;
+    height: 524px;
+    left: calc(50% - 1600px / 2);
+    top: 2932px;
+    background: url("assets/5/signup-bg-image.jpg");
+}
+
+/* fifth form container */
+.fifth-form {
+    position: absolute;
+    width: 406px;
+    height: 104px;
+    left: 597px;
+    top: 200px;
+}
+
+/* fifth text position / style */
+.fifth-text {
+    position: absolute;
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* fifth email input position / style */
+.fifth-email-input {
+    position: absolute;
+    width: 333px;
+    height: 40px;
+    left: 0;
+    top: 58px;;
+}
+
+/* fifth submit button position */
+.fifth-submit-button {
+    position: absolute;
+    width: 66px;
+    height: 46px;
+    left: 340px;
+    top: 58px;
+    background: #00AFDB url("assets/5/check-icon.svg") no-repeat center;
+    border: #00AFDB;
+}
+
+/* sixth section container */
+.sixth-section {
+    position: absolute;
+    width: 1600px;
+    height: 464px;
+    left: calc(50% - 1600px / 2);
+    top: 3456px;
+    background: #F5F6F7;
+}
+
+/* sixth section text one position / layout */
+.sixth-text-one {
+    position: absolute;
+    height: 28px;
+    left: 675px;
+    top: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+/* sixth section text two position / layout */
+.sixth-text-two {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 560px;
+    top: 168px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+/* sixth section apple store button container */
+.sixth-apple-button-container {
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 599px;
+    top: 238px;
+}
+
+/* sixth section apple store button one position / style */
+.sixth-button-apple-one {
+    position: absolute;
+    width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    border: #00AFDB;
+}
+
+/* sixth section apple store button two (icon) position / style */
+.sixth-button-apple-two {
+    position: absolute;
+    width: 59px;
+    height: 46px;
+    left: 127px;
+    background: #009CC2 url("assets/6/apple-icon.svg") no-repeat center;
+    border: #009CC2;
+}
+
+/* sixth section play store button container */
+.sixth-android-button-container {
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 815px;
+    top: 238px;
+}
+
+/* sixth section android store button one position / style */
+.sixth-button-android-one {
+    position: absolute;
+    width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    border: #00AFDB;
+}
+
+/* sixth section android store button two position / style */
+.sixth-button-android-two {
+    position: absolute;
+    left: 127px;
+    width: 59px;
+    height: 46px;
+    background: #009CC2 url("assets/6/android-icon.svg") no-repeat center;
+    border: #009CC2;
+}
+
+/* button font style */
+.button-font-style {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* footer container */
+.footer-container {
+    position: absolute;
+    width: 1600px;
+    height: 185px;
+    left: calc(50% - 1600px / 2);
+    top: 3920px;
+    background: #000000;
+}
+
+/* logo footer top position */
+.logo-footer-top {
+    top: 60px;
+}
+
+/* footer copyright position */
+.copyright-position {
+    position: absolute;
+    height: 20px;
+    left: 1270px;
+    top: 73px;
+    color: #FFFFFF;
+}
+
+/* footer text style */
+.footer-text-style {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+}
+
+/* footer copyright text color */
+.footer-copyright-color {
+    color: #818181;
+}
+
+/* footer navigation items container */
+.footer-nav-container {
+    position: absolute;
+    width: 236px;
+    height: 20px;
+    left: 160px;
+    top: 73px;
+}
+
+/* footer nav item position one */
+.footer-nav-position-one {
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    left: 0;
+    top: 0;
+}
+
+/* footer nav item position two */
+.footer-nav-position-two {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    left: 85px;
+    top: 0;
+}
+
+/* footer nav item position three */
+.footer-nav-position-three {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 171px;
+    top: 0;
+}
+
+/* footer nav item divider position one */
+.menu-divider-one {
+    position: absolute;
+    width: 8px;
+    height: 0;
+    left: 65px;
+}
+
+/* footer nav item divider position two */
+.menu-divider-two {
+    position: absolute;
+    width: 8px;
+    height: 0;
+    left: 151px;
+}
+
+/* footer navigation text / divider color */
+.footer-nav-color {
+    color: #FFFFFF;
+}
+
+/* button interaction on click */
+button:active{
+    background: coral;
+    color: black;
+}
+
+/* navigation interaction on hover */
+a:hover {
+    background: yellow;
+    color: fuchsia;
+}
+
+/* anchor decoration */
+a {
+    text-decoration: none;
+}
